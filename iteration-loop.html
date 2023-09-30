@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iteration Statement Introduction</title>
+</head>
+<body>
+    <!-- Loop Control -->
+    <script language="javascript" type="text/javascript">
+        var i;
+        for(i = 1; i <= 10; i++) {
+            if(i == 6)
+                continue;
+            document.write("i = " + i + "<br/>");
+        }
+
+    </script>
+    <!-- Loop Control End -->
+
+    <!-- Do.. While Loop -->
+    <!-- <script language="javascript" type="text/javascript">
+        var actualpin = "3456";
+        var pin;
+        var count = 0;
+        do {
+            pin = prompt("Enter your pin...", "Enter...");
+            count++;
+        } while(pin != actualpin && count < 3);
+        if(pin == actualpin)
+        {
+            document.write("Welcome User");
+        }else {
+            document.write("Account Locked");
+        }
+    </script> -->
+    <!-- End Do While Loop -->
+
+    <!-- While Loop -->
+    <!-- <script language="javascript" type="text/javascript">
+        var num = parseInt(prompt("Enter a number","Enter ..."));
+        var count = 0;
+        while (num > 0)
+        {
+            num = Math.trunc(num / 10);
+            count++;
+        }
+        document.write("Digits : " + count);
+    </script> -->
+    <!-- While Loop End -->
+
+        <!-- For Loop Start -->
+    <!-- <script language="javascript" type="text/javascript">
+        var i;
+        var product = 1;
+        var num = parseInt(prompt("Enter a number","Enter ..."));
+        for (i = 1; i <= num; i++)
+        {
+            product = product * i;
+        }
+        document.write("Factorial :" + product);
+    </script> -->
+    <!-- For Loop End -->
+</body>
+</html>

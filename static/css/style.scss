@@ -1,0 +1,70 @@
+.row{
+    border: 1px solid #beb3b3;
+    margin: 2rem;
+    .age-title{
+        border-bottom: 1px solid #beb3b3;
+        text-align: center;
+        font-size: larger;
+    }
+    .age-button{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        margin: 1rem;
+        .click-me{
+            button{
+                background-color: green;
+                color: white;
+                border: green;
+                padding: 0.75rem;
+                border-radius: 1rem;
+                cursor: pointer;
+            }
+        }
+        .reset-me{
+            button{
+                background-color: red;
+                color: white;
+                border: red;
+                padding: 0.75rem;
+                border-radius: 1rem;
+                cursor: pointer;
+            }
+        }
+    }
+    .age-result{
+        border-top: 1px solid #beb3b3;
+        color: rgb(255, 0, 0);
+        text-align: center;
+    }
+    .dog-title{
+        text-align: center;
+        border-bottom: 1px solid #beb3b3;
+    }
+    .dog-generated{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 1rem;
+        margin: 1rem;
+        gap: 1rem;
+        img{
+            box-shadow: 0 0 3px 5px #c7bfbf;
+            height: 7rem;
+            width: 100%;
+        }
+    }
+    .generate-button{
+        border-top: 1px solid #beb3b3;
+        text-align: center;
+        padding: 1rem;
+        button{
+            background-color: rgb(0, 140, 255);
+            color: white;
+            border: red;
+            padding: 0.75rem;
+            border-radius: 1rem;
+            cursor: pointer;
+
+        }
+    }
+}
