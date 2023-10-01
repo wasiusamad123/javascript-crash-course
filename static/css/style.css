@@ -47,7 +47,6 @@
 }
 .row .dog-generated img {
   box-shadow: 0 0 3px 5px #c7bfbf;
-  height: 7rem;
   width: 100%;
 }
 .row .generate-button {
@@ -62,4 +61,21 @@
   padding: 0.75rem;
   border-radius: 1rem;
   cursor: pointer;
+}
+.row .challenge-rsp {
+  padding: 1rem;
+}
+.row .challenge-rsp .rsp {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+.row .challenge-rsp .rsp img {
+  border-radius: 8px;
+  height: 10rem;
+  cursor: pointer;
+}
+.row .challenge-rsp .rsp img:hover {
+  box-shadow: 0 0 5px 8px #4d58ff;
+  border-radius: 8px;
 }/*# sourceMappingURL=style.css.map */
